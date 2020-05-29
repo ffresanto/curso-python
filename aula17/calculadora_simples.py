@@ -28,4 +28,4 @@ while True:
 
     sair = input('Deseja sair? [s]im ou [n]ão: ')
     if sair == 's':
-        break
+        break   
