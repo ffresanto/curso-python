@@ -1,10 +1,43 @@
 # Split, Join e Enumerate em Python
 
+lista = ['Luiz', 'Joao', 'Maria']
+
+for indice, valor in enumerate(lista):
+    print(indice, valor)
+
+"""
+lista = [
+    [0,'Luiz'],
+    [1,'Joao'],
+    [2,'Maria'],
+]
+
+for indice, valor in lista:
+    print(indice, valor)
+    """
+
+"""
+string = 'O Brasil é Penta'
+lista = string.split(' ')
+
+for indice, valor in enumerate(lista):
+    print(indice, valor, lista[indice])
+"""
+"""
+string2 = ' '.join(lista)
+
+print(string)
+print(lista)
+print(string2)
+"""
+
+"""
 string = 'O Brasil é penta.'
 lista = string.split(' ')
 string2 = ''
 
 print(lista)
+"""
 
 
 """ Split
