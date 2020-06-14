@@ -42,7 +42,12 @@ def dumb():
     return f
 """
 def func(*args):
-    print(*args)
+    print(args)
+    print(args[0])
+    print(args[3])
+
+func(1,2,3,4,5)
 
 lista = [1,2,3,4,5]
 print(*lista, sep='-')
+print(1,2,3,4,5)
