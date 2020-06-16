@@ -41,7 +41,7 @@ print(dumb(), type(dumb()))
 def dumb():
     return f
 """
-def func(*args):
+"""def func(*args):
     print(args)
     print(args[0])
     print(args[3])
@@ -50,4 +50,15 @@ func(1,2,3,4,5)
 
 lista = [1,2,3,4,5]
 print(*lista, sep='-')
-print(1,2,3,4,5)
+print(1,2,3,4,5)"""
+
+def func(*args, **kwargs):
+    print(args, kwargs)
+
+
+lista = [1,2,3,4,5]
+lista2 = [10,20,30,40,50]
+
+func(*lista, *lista2)
+
+
